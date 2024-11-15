@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.background-red {
+  background-color: rgb(202, 72, 72);
+}
+
+.background-green {
+  background-color: rgba(64, 126, 64, 0.831)}
+
+.background-blue {
+  background-color: rgb(18, 97, 244);
+}
+
+.transition {
+  transition: background-color 0.3s ease;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  width: 25%;
+  padding: 0,5 rem;
+  border-radius: 5px;
+  background-color: rgb(53, 53, 53);
+  color: red;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+p{
+    font-size: 2rem;
+    
+}
+span {
+  color: red;
+}
+
+.popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  text-align: center;
+}
+
+.popup button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  width: fit-content;
+  border: none;
+  font-size: 14;
+  background-color: #6d1005e3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
+}
